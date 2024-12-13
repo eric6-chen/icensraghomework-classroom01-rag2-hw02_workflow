@@ -11,8 +11,8 @@
 
 * 請使用 **LangChain**, **PyPDF** 套件完成這次作業。
 * 請於 **`student_assignment.py`** 中，實作其中提供的方法
-    * `hw02_1(pdf_path)`
-    * `hw02_2(pdf_path)`
+    * `hw02_1(q1_pdf)`
+    * `hw02_2(q2_pdf)`
 
 ---
 
@@ -21,7 +21,7 @@
 * **說明**：將範例文件的內容切分成適當大小的的單元(chunk)
 * **文本**：你手邊有一份範例 PDF 文件 **`OpenSourceLicenses.pdf`**，內容是開源碼授權的基本介紹。
 * **任務**：
-  1. 請實作方法 `hw02_1(pdf_path)` 來完成上述任務。
+  1. 請實作方法 `hw02_1(q1_pdf)` 來完成上述任務。
   2. 使用 **PyPDF** 套件的load()方法讀取 **`OpenSourceLicenses.pdf`** 的文本內容。
   3. 使用 **CharacterTextSplitter** 將文本以`頁`為單位，分割為多個chunks。
 * **提示**：
@@ -43,7 +43,7 @@
   2. 使用 **RecursiveCharacterTextSplitter** 將文本分割為多個chunks。
   3. 請試著將`每一章，每一條`切分成單獨的一個個chunk
 * **提示**：
-  1. 請實作方法 `hw02_1(pdf_path)`，用於完成上述任務。
+  1. 請實作方法 `hw02_2(q2_pdf)`，用於完成上述任務。
   2. 可以用 **split_text** 或是 **split_documents** 得到分割後的chunk。
   3. 注意 **RecursiveCharacterTextSplitter** 的配置參數：
       - chunk_overlap=0
