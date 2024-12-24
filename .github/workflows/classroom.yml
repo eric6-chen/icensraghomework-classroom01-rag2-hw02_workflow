@@ -55,6 +55,7 @@ jobs:
         run: |
           source .venv/bin/activate
           cp temp-tests/test_assignment.py .
+          cp temp-tests/*.pdf .
 
       - name: Debug Python Environment
         run: |
