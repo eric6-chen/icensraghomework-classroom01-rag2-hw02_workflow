@@ -10,7 +10,7 @@
 ## 作業規範
 
 * 請使用 **LangChain**, **PyPDF** 套件完成這次作業。
-* 請於 **`student_assignment.py`** 中，實作其中提供的方法
+* 請於 **`student_assignment.py`** 中，實作裡面的兩個方法
     * `hw02_1(q1_pdf)`
     * `hw02_2(q2_pdf)`
 
@@ -53,3 +53,9 @@
 * **切分範例**：
   - 以第一頁為例，預期會是這樣切分
   - ![Alt text](./chunks_example.png "Optional title")
+
+---
+
+## 參考來源
+- [第一題](https://python.langchain.com/api_reference/text_splitters/character/langchain_text_splitters.character.CharacterTextSplitter.html)
+- [第二題](https://python.langchain.com/api_reference/text_splitters/character/langchain_text_splitters.character.RecursiveCharacterTextSplitter.html)
